@@ -58,13 +58,15 @@ pip install -r requirements.txt
 2. Para salvar dados no **PostgreSQL** (loop infinito a cada 60s):
 
 ```bash
-python main.py
+python Getprices_loop_db.py
+
 ```
 
 3. Para salvar apenas em **CSV** (loop infinito a cada 60s):
 
 ```bash
-python GetPrices_loop_save.py
+python Getprices_csv.py
+
 ```
 
 > ⚠️ Ambos os scripts rodam indefinidamente e coletam dados a cada 60 segundos.
